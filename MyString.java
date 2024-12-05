@@ -8,12 +8,12 @@ public class MyString {
 
         System.out.println("Testing contains:");
         System.out.println(contains("unhappy", "happy")); // true
-        // System.out.println(contains("happy", "unhappy")); // false
-        // System.out.println(contains("historical", "story")); // false
-        // System.out.println(contains("psychology", "psycho")); // true
-        // System.out.println(contains("personality", "son")); // true
-        // System.out.println(contains("personality", "dad")); // false
-        // System.out.println(contains("resignation", "sign")); // true
+        System.out.println(contains("happy", "unhappy")); // false
+        System.out.println(contains("historical", "story")); // false
+        System.out.println(contains("psychology", "psycho")); // true
+        System.out.println(contains("personality", "son")); // true
+        System.out.println(contains("personality", "dad")); // false
+        System.out.println(contains("resignation", "sign")); // true
     }
 
     /** Returns the lowercase version of the given string. */
@@ -28,9 +28,7 @@ public class MyString {
         // Replace the following statement with your code
     
         boolean isContains = false;
-        // int lastIndex = 0;
-        // int smaller = Math.min(str1.length(), str2.length());
-        // int bigger = Math.max(str1.length(), str2.length());
+      
         if(str1.length() < str2.length()){
             return false;
         }
