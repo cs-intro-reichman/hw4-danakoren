@@ -11,11 +11,10 @@ public class Primes {
             arr[i] = true;
            
         }
-        // while( p > (int)Math.sqrt(N)){
             while( p * p <= N){
-            // System.out.println(4);
+            
             if(arr[p]){
-                for(int i = p * p ; i <= arr.length ; i += p){
+                for(int i = p * p ; i < arr.length ; i += p){
                     arr[i] = false;
                 }
                 
